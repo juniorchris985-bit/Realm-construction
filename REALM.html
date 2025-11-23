@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realm Construction</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Title section */
+        .title-box {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #ddd;
+        }
+
+        .title-box h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        .title-box h2 {
+            margin: 5px 0 15px 0;
+            font-size: 22px;
+            color: #444;
+        }
+
+        /* Section container */
+        .section {
+            width: 90%;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        /* Columns */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .col-50 {
+            width: 48%;
+        }
+
+        img {
+            width: 50%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* Social icons */
+        .social-icons img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        /* Contact form */
+        .contact-section {
+            background: #0a2a66;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 30px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            padding: 12px 20px;
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            background: #ffcc00;
+            color: black;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #e6b800;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #555;
+            margin-top: 40px;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .col-50 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="title-box">
+        <h1>🏗️ REALM CONSTRUCTION</h1>
+        <h2>YOU DREAM WE BUILD</h2>
+        <p>Building the Future, Restoring the Past.</p>
+        <p>We deliver reliable, high-quality construction solutions on time and within budget.</p>
+    </div>
+
+    <!-- What We Do Section -->
+    <div class="section">
+        <hr />
+        <div class="row">
+            <div class="col-50">
+                <h2>🛠️ What We Do</h2>
+                <p>🎨 Painting</p>
+                <p>🧱 Paving</p>
+                <p>🪵 Tiling</p>
+                <p>🏢 Ceilings</p>
+            </div>
+
+            <div class="col-50">
+                <img src="images/Man Construction Worker Dark Skin Tone.png" alt="Worker">
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Work Section -->
+    <div class="section">
+        <hr />
+        <h2>🏗️ OUR WORK</h2>
+        <p>We believe in delivering quality services to our customers on time and as required.</p>
+
+        <div class="row">
+            <div class="col-50">
+                <img src="images/project2.jpg" alt="Project 1">
+                <img src="images/project6.jpg" alt="Project 2">
+            </div>
+
+            <div class="col-50">
+                <img src="images/project4.jpg" alt="Project 3">
+                <img src="images/project5.jpg" alt="Project 4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <hr />
+        <div class="row">
+            <div class="col-50">
+                <h2>📞 Contact Details</h2>
+                <p>📱 081 609 1194</p>
+                <p>Call, SMS or WhatsApp</p>
+                <p>🌐 Find us on social media</p>
+                <p>Realm Construction</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-50">
+                <h2>📌 Gauteng</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-section">
+        <h2>📬 Get In Touch With Us</h2>
+        <p>Fill out the form below and we'll get back to you as soon as possible!</p>
+
+        <form action="https://formsubmit.co/realmconstruction2@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <input type="text" name="phone" placeholder="Your phone number" required>
+            <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Realm Construction — SINCE 2021
+    </footer>
+
+</body>
+</html>
